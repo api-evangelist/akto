@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/akto-api-security/akto/releases + https://status.akto.io
+versioning:
+  scheme: semver
+  current: v2.13.5
+  docs: https://github.com/akto-api-security/akto/releases
+  notes: Akto is distributed as a self-hosted / cloud product; releases are tagged
+    with semantic versions on GitHub. Guardrails and agent-guard services carry their
+    own version trains (e.g. vguardrails-service-2.13.4, vagent-guard-1.0.9).
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No formal API deprecation policy or RFC 8594 Sunset/Deprecation header support
+    published.
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.akto.io
+deprecated_operations: []

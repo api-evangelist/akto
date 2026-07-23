@@ -1,0 +1,41 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/akto-api-security/akto/releases
+scheme: semver
+current: v2.13.5
+notes: Product changelog is published as GitHub release tags on the open-source akto
+  repository (MIT). Recent window captured below; the live releases page is the source
+  of truth.
+entries:
+- version: v2.13.5
+  date: '2026-07-17'
+  breaking: false
+  highlights: Fix for Atlas Guardrails.
+- version: v2.13.4
+  date: '2026-07-17'
+  breaking: false
+  highlights: Hotfix addressing API token issues.
+- version: v2.13.3
+  date: '2026-07-16'
+  breaking: false
+  highlights: Smart testing feature implementation.
+- version: v2.13.2
+  date: '2026-07-16'
+  breaking: false
+  highlights: Bring Your Own Agent deployment fix.
+- version: vguardrails-service-2.13.4
+  date: '2026-07-15'
+  breaking: false
+  highlights: Guardrails service - Go module dependencies updated.
+- version: vagent-guard-1.0.9
+  date: '2026-07-15'
+  breaking: false
+  highlights: Agent Guard functionality improvements.
+- version: v2.13.1
+  date: '2026-07-14'
+  breaking: false
+  highlights: Traces page bug resolution.
+- version: v2.13.0
+  date: '2026-07-14'
+  breaking: false
+  highlights: Human-in-the-loop testing feature (feat/human-in-loop).

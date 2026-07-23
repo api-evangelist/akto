@@ -1,0 +1,21 @@
+generated: '2026-07-17'
+method: searched
+probe: false
+source: https://www.akto.io/ (compliance badges) + https://trust.akto.io/
+url: https://trust.akto.io/
+certifications:
+- SOC 2
+- ISO 27001
+- GDPR
+- HIPAA
+evidence:
+- source: https://www.akto.io/
+  kind: compliance-badges
+  detail: 'Homepage footer badges: "Akto is SOC2 Compliant", "Akto is ISO Compliant",
+    "Akto is GDPR Compliant", "HIPAA compliance for Akto".'
+- source: https://trust.akto.io/
+  kind: trust-center
+  detail: Public trust center linked from akto.io homepage and site navigation.
+notes: Trust center is a JavaScript-rendered SPA; certification list captured from
+  the published homepage compliance badges. Named certifications verified as published;
+  levels (e.g. SOC 2 Type II) not asserted without a document-level source.

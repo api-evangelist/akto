@@ -1,8 +1,30 @@
 aid: akto
 name: Akto
-description: 'Akto is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: apis. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Akto is a proactive API security platform that discovers, tests, and
+  protects APIs and AI systems across an organization''s infrastructure. Its open-source
+  core (MIT, Java) delivers automated API discovery, API security posture management,
+  and dynamic API security testing (DAST) in CI/CD, backed by a community test library
+  of 1000+ tests covering the OWASP API Security Top 10 and HackerOne top vulnerabilities.
+  Traffic is ingested from eBPF, Kubernetes, API gateways (Envoy, NGINX, Istio, Kong,
+  Apigee, MuleSoft and more), and cloud mirroring, and can be deployed self-hosted
+  in ~60 seconds or as SaaS. Akto has expanded into agentic AI security with Atlas
+  (shadow-AI discovery for employee-facing endpoints) and Argus (governance and red-teaming
+  for homegrown AI, MCP tools, and LLMs), adding runtime guardrails and human-in-the-loop
+  testing. Recognized by Gartner in the API and AI-agent protection markets and backed
+  by Accel.'
 url: https://raw.githubusercontent.com/api-evangelist/akto/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.akto.io/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,7 +36,16 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Apis
+- API Security
+- Security
+- API Security Testing
+- DAST
+- API Discovery
+- AI Security
+- MCP Security
+- Open Source
+- DevSecOps
+- Governance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +55,42 @@ maintainers:
 common:
 - type: Website
   url: https://www.akto.io/
+- type: DeveloperPortal
+  url: https://docs.akto.io/
+- type: Documentation
+  url: https://docs.akto.io/
+- type: GettingStarted
+  url: https://docs.akto.io/getting-started/quick-start-with-akto-cloud.md
+- type: Blog
+  url: https://www.akto.io/blog
+- type: GitHubOrganization
+  url: https://github.com/akto-api-security
+- type: Pricing
+  url: https://www.akto.io/pricing
+- type: SignUp
+  url: https://app.akto.io/
+- type: Support
+  url: https://www.akto.io/terms/supportguide
+- type: TermsOfService
+  url: https://www.akto.io/terms/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.akto.io/terms/privacy
+- type: StatusPage
+  url: https://status.akto.io
+- type: ChangeLog
+  url: https://github.com/akto-api-security/akto/releases
+- type: LLMsTxt
+  url: llms/akto-llms.txt
+- type: Lifecycle
+  url: lifecycle/akto-lifecycle.yml
+- type: DomainSecurity
+  url: security/akto-domain-security.yml
+- type: TrustCenter
+  url: security/akto-trust-center.yml
+- type: Compliance
+  url: https://trust.akto.io/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
