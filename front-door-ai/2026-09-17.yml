@@ -1,0 +1,33 @@
+# Front Door AI Index — akto — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: akto
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.akto.io
+  final_host: www.akto.io
+  ownership: own
+  owner: akto
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 112
+  host_score: 112
+  density: 140.35
+  words: 798
+  tiers:
+    agentic: 53
+    core: 57
+    model: 2
+  ambiguous: 34
+  top_terms:
+    AI: 53
+    agent: 34
+    AI agent: 28
+    MCP: 12
+    agentic: 11
+    LLMs: 4
+    Claude: 2
+    inference: 1
+    prompts: 1
