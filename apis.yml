@@ -57,7 +57,7 @@ tags:
 - API Discovery
 - AI Security
 - MCP Security
-- Open-Source
+- Open Source
 - DevSecOps
 - Governance
 tags_raw:
@@ -72,6 +72,7 @@ tags_raw:
 - Open Source
 - DevSecOps
 - Governance
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
